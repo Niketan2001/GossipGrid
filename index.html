@@ -1,0 +1,35 @@
+<!-- index page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GossipGrid -Real time node socket.io chat app</title>
+    <!-- By using below script we have connected client with server successfully -->
+    <link rel="stylesheet" href="public/style.css">
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <section class="chat_window">
+        <div class="brand">
+            <img id="logo" src="public/logo.png" alt="GossipGrid">
+            <h1>GossipGrid</h1>
+        </div>
+        <div class="massage_area">
+            <!-- <div class="incoming">
+                hi
+            </div>
+            <div class="outgoing">
+                hallo
+            </div> -->
+            
+        </div>
+        <div>
+            <textarea name="textarea" id="textarea" cols="30" rows="1" placeholder="Gossip here.."></textarea>
+        </div>
+        <script src="public/client.js"></script>
+    </section>
+</body>
+</html>
